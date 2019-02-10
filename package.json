@@ -1,0 +1,16 @@
+{
+  "name": "portfolio_modern",
+  "version": "1.0.0",
+  "description": "Responsive web portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "css-compile": "node-sass --output dist/css scss/main.scss",
+     "css-watch": "npm run css-compile && npm run css-compile -- -w"
+  },
+  "author": "Hitesh Mandav",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
