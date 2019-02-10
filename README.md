@@ -1,2 +1,2 @@
 # portfolio
-Portfolio for job hunt
+Hitesh Mandav Front-end Developer
